@@ -11,6 +11,7 @@ int main(int argc, char** argv)
     Nob_Cmd cmd = {0};
     nob_cmd_append(&cmd,
         "gcc",
+        "--include=stddef.h",
         "-g", "-O0",
         "-std=c99", "-Wall", "-Wextra", "-pedantic", "-static",
         SRC_FOLDER "utils.c",

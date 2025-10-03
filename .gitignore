@@ -2,6 +2,9 @@ build/
 build.bat
 run.bat
 test.bat
+build.sh
+run.sh
+test.sh
 stockfish.exe
 nob
 nob.exe
